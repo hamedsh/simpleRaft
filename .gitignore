@@ -39,3 +39,5 @@ localenv/*
 
 *.swp
 *.swo
+
+.idea
