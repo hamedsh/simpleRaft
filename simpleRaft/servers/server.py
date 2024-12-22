@@ -3,7 +3,6 @@ import threading
 
 
 class Server(object):
-
     def __init__(self, name, state, log, messageBoard, neighbors):
         self._name = name
         self._state = state
