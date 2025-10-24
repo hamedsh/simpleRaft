@@ -1,7 +1,7 @@
 import unittest
 
-from ..boards.memory_board import MemoryBoard
-from ..messages.base import BaseMessage
+from boards.memory_board import MemoryBoard
+from messages.base import BaseMessage
 
 
 class TestMemoryBoard(unittest.TestCase):

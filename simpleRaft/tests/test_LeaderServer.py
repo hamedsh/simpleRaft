@@ -1,10 +1,10 @@
 import unittest
 
-from ..boards.memory_board import MemoryBoard
-from ..messages.append_entries import AppendEntriesMessage
-from ..servers.server import Server
-from ..states.follower import Follower
-from ..states.leader import Leader
+from boards.memory_board import MemoryBoard
+from messages.append_entries import AppendEntriesMessage
+from servers.server import Server
+from states.follower import Follower
+from states.leader import Leader
 
 
 class TestLeaderServer(unittest.TestCase):

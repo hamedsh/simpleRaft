@@ -1,10 +1,10 @@
 import unittest
 
-from ..boards.memory_board import MemoryBoard
-from ..messages.append_entries import AppendEntriesMessage
-from ..messages.request_vote import RequestVoteMessage
-from ..servers.server import Server
-from ..states.follower import Follower
+from boards.memory_board import MemoryBoard
+from messages.append_entries import AppendEntriesMessage
+from messages.request_vote import RequestVoteMessage
+from servers.server import Server
+from states.follower import Follower
 
 
 class TestFollowerServer(unittest.TestCase):
